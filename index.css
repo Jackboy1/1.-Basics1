@@ -26,3 +26,9 @@ li a {
   display: flex;
   justify-content: space-between;
 }
+
+.logo {
+  width: 10rem;
+  height: 1.5rem;
+  margin: 1rem;
+}
