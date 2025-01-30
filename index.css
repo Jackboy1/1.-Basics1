@@ -1,0 +1,28 @@
+button {
+  background-color: rgb(27, 27, 56);
+  border: none;
+  color: white;
+  padding: .7rem .90rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li a {
+  color: rgb(25, 21, 21);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
