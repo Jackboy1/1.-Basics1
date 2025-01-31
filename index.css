@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f7f8;
+}
+
 button {
   background-color: rgb(27, 27, 56);
   border: none;
@@ -12,23 +18,39 @@ button {
   cursor: pointer;
 }
 
-ul li {
-  list-style-type: none;
-}
-
-li a {
-  color: rgb(25, 21, 21);
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.header {
+header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
-.logo {
-  width: 10rem;
-  height: 1.5rem;
-  margin: 1rem;
+.logo img{
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  gap: 1.3rem;
+  display: flex;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  padding: 30px 16%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-image img{
+  max-width: 500px;
 }
